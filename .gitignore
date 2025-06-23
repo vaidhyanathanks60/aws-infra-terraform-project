@@ -1,0 +1,19 @@
+# Terraform specific files
+.terraform/
+*.tfplan
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+*.tfvars   # To ignore your terraform.tfvars file that might contain sensitive data
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+
+# If your SSH private key is inside the project folder (usually it's not)
+# id_rsa_mywebapp # Example: if your private key is named exactly this and is in the root
